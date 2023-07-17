@@ -1,3 +1,2 @@
 # Ejercicios
-ejercicios resueltos 
-este repositorio es para guardar mis ejercicios resueltos 👌
+Este repositorio es para guardar mis ejercicios resueltos 👌
