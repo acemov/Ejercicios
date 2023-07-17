@@ -3,12 +3,22 @@ body {
     font-family: 'Yantramanav';
 }
 
-h1 {
-    background-color: aqua;
+.primer-titulo {
+    width: 130px;
+    background-color: rgb(102, 255, 0);
+    position: relative;
+    left: 50%;
+    border-radius: 10px;
+}
+.segundo-titulo{
+    background-color: aquamarine;
+    width: 50%;
+    height: 50%;
+
 }
 
 img {
-
+    border-radius: 10px;
     width: 50%;
     height: 50%;
 }
