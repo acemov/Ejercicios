@@ -8,20 +8,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../public/css/normalize.css">
     <link rel="stylesheet" href="../public/css/styles.css">
     <title>Clase-17</title>
 </head>
 
 <body>
     <header>
-        <img width="320" height="100" src="../public/images/logo-mercado-liebre.svg" alt="logo de la empresa">
-        <div><input type="text"></div>
-        <i class="fas fa-journal-whills"></i>
-        <div>
-            <p>Comprá en cuotas y sin tarjeta de crédito</p>
+        <div class="logo-merca">
+            <img src="../public/images/logo-mercado-liebre.svg" alt="logo de la empresa">
         </div>
+        <div class="buscador">
+            <input type="text" placeholder="Buscar productos, marcas">
+            <div class="search"><i class="fas fa-search"></i></div>
+        </div>
+
+        <div class="opciones-compras">
+            <p>Comprá en cuotas y sin tarjeta de crédito</p>
+            <div class="buy"><i class="fas fa-store"></i></div>
+        </div>
+
         <nav>
-            <ul>
+            <ul type="None">
                 <li><a href="#">Ofertas</a></li>
                 <li><a href="#">Tiendas Oficiales</a></li>
                 <li><a href="#">Vender</a></li>
@@ -29,16 +37,35 @@
             </ul>
         </nav>
         <nav>
-            <ul>
-                <li><a href="#">Creá tu cuenta</a></li>
-                <li><a href="#">Ingresá</a></li>
-                <li><a href="#">Mis compras</a></li>
+            <ul type="None">
+                <div class="crear-cuenta">
+                    <li><a href="#">Creá tu cuenta</a></li>
+                    <div class="crear-cuenta-icon">
+                        <i class="far fa-user-circle"></i>
+                    </div>
+                </div>
+                <div class="ingresar">
+                    <li><a href="#">Ingresá</a></li>
+                    <div class="ingresar-icon">
+                        <i class="fas fa-sign-in-alt"></i>
+                    </div>
+                </div>
+                <div class="carrito">
+                    <li><a href="#">Mis compras</a></li>
+                    <div class="carrito-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
             </ul>
         </nav>
+
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
     </header>
     <main>
         <section>
-            <h2 class="titulares" >Basado en tu última visita</h2>
+            <h2 class="titulares">Basado en tu última visita</h2>
             <article>
                 <img width="320" height="300" src="../public/images/img-cafetera-moulinex.jpg"
                     alt="imagen de la cafetera">
@@ -131,17 +158,20 @@
     <footer>
         <section>
             <h2>Pagá con tarjeta o en efectivo</h2>
-            <p class="descripciones">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en untos de pago. ¡Y siempre es
+            <p class="descripciones">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en untos
+                de pago. ¡Y siempre es
                 seguro!</p>
         </section>
         <section>
             <h2>Envío gratis desde $ 2.500</h2>
-            <p class="descripciones">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de roductos. Es un beneficio de
+            <p class="descripciones">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                roductos. Es un beneficio de
                 Mercado Puntos.</p>
         </section>
         <section>
             <h2>Seguridad, de principio a fin</h2>
-            <p class="descripciones">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre
+            <p class="descripciones">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                porque estás siempre
                 protegid@.</p>
         </section>
         <section>
