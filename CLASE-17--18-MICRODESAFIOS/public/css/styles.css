@@ -4,86 +4,6 @@ body{
     background-color: #EAC926;
 
 }
-.logo-merca{
-    width:150px;
-    height:50px;
-    position: relative;
-    left: 0px;
-}
-
-
-
-
-.buscador{
-    position: relative;
-    margin-bottom: 20px;
-}
-.search{
-    position: absolute;
-    top: 25px;
-    left: 4px;
-}
-
-
-
-.opciones-compras{
-    text-align: center;
-    position: relative;
-}
-.buy{
-    position: absolute;
-    top: 0px;
-    left: 75px;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    text-align: left;
-
-}
-
-ul{padding-left: 0px;
-}
-
-.crear-cuenta{
-    position: relative;
-}
-.crear-cuenta-icon{
-    position: absolute;
-    left: 80px;
-    top: 1px;
-}
-
-
-
-
-.ingresar{
-    position: relative;
-}
-.ingresar-icon{
-    position: absolute;
-    left: 42px;
-    top: 1px;
-}
-
-
-
-.carrito{
-    position: relative;
-}
-.carrito-icon{
-    position: absolute;
-    left: 70px;
-    top: 1px;
-}
-
-main{
-    text-align: center;
-}
-
-
-
 .burger-menu{
     width: 45px;
     height: 45px;
@@ -98,6 +18,7 @@ main{
     left: 20%;
     top: 15%;
 }
+
 
 
 
@@ -124,4 +45,38 @@ footer{
     font-size: 25px;
     position: relative;
     top: 15px;
+}
+
+/* Diseño adaptativo - clase 19 */
+
+/* --------------------------------Micro desafíos - Paso I -------------------------------- */
+
+/* ● Debemos centrar la sección main y que ocupe un 90% del ancho de la pantalla. */
+main{
+    margin: auto;
+    width: 90%;
+}
+/* ● Entre cada artículo hay una separación de 10 píxeles. */
+main article{
+    margin-bottom: 10px;
+}
+
+/* ● Nos piden que la misma tenga un borde superior de 1 píxel, línea sólida y color #ebebeb. */
+.productos{
+    border: 1px solid #ebebeb;
+}
+/* ● Debe tener separado el contenido de sus bordes en 15 píxeles en cada uno de sus lados. */
+.productos{
+    padding: 15px;
+}
+/* --------------------------------- Micro desafíos - Paso 2 ---------------------------------*/
+/* ● Navegación en tablets (ancho mínimo 361 px) */
+@media (min-width: 361px){
+    .descripciones{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+/* ● Navegación en desktop (ancho mínimo 769 px) */
+@media (min-width: 769px){
+
 }
