@@ -15,155 +15,177 @@
 
 <body>
     <header>
-        <img src="../public/images/logo-mercado-liebre.svg" alt="logo de la empresa">
-        <div class="buscador">
-            <input type="text" placeholder="Buscar productos, marcas">
-            <div class="search"><i class="fas fa-search"></i></div>
-        </div>
-
-        <div class="opciones-compras">
-            <p>Comprá en cuotas y sin tarjeta de crédito</p>
-            <div class="buy"><i class="fas fa-store"></i></div>
-        </div>
-
-        <nav>
-            <ul type="None">
-                <li><a class="enlaces" href="#">Ofertas</a></li>
-                <li><a class="enlaces" href="#">Tiendas Oficiales</a></li>
-                <li><a class="enlaces" href="#">Vender</a></li>
-                <li><a class="enlaces" href="#">Ayuda</a></li>
-            </ul>
-        </nav>
-        <nav>
-            <ul type="None">
-                <li><a class="enlaces" href="#">Creá tu cuenta</a></li>
-                <div class="crear-cuenta-icon">
-                    <i class="far fa-user-circle"></i> <!--EL ICONO SERIA UN LINK??¿?¿?¿?¿ -->
+        <div class="primer-header">
+            <div class="buscador">
+                <img class="logo-merca" src="../public/images/logo-mercado-liebre.svg" alt="logo de la empresa">
+                <input class="barra-de-buscaqueda" type="text" placeholder="Buscar productos, marcas">
+                <div class="search">
+                    <i class="fas fa-search"></i>
                 </div>
-
-                <li><a class="enlaces" href="#">Ingresá</a></li>
-                <div class="ingresar-icon">
-                    <i class="fas fa-sign-in-alt"></i>
-                </div>
-
-                <li><a class="enlaces" href="#">Mis compras</a></li>
-                <div class="carrito-icon">
-                    <i class="fas fa-shopping-cart"></i>
-                </div>
-            </ul>
-        </nav>
-            <div class="burger">
-                <i class="fas fa-bars" style="color: #ffffff;"></i>
             </div>
-        <img class="imagen-home" src="/CLASE-17-18-19-20-MICRODESAFIOS/public/images/img-home-banner.jpg" alt="publicidad">
+
+            <div class="opciones-compras">
+                <i class="fas fa-store"></i>
+                <p>Comprá en cuotas y sin tarjeta de crédito</p>
+            </div>
+        </div>
+
+        <nav >
+            <ul type="None">
+            <div class="navegador-1">
+                <li><a class="enlaces enclaces-medio-14" href="#">Ofertas</a></li>
+                <li><a class="enlaces enclaces-medio-2" href="#">Tiendas Oficiales</a></li>
+                <li><a class="enlaces enclaces-medio-2" href="#">Vender</a></li>
+                <li><a class="enlaces enclaces-medio-18" href="#">Ayuda</a></li>
+            </div>
+            <div class="navegador-2">
+                <li><a class="enlaces" href="#"><i class="far fa-user-circle"></i>Creá tu cuenta</a></li>
+                 <!--EL ICONO SERIA UN LINK??¿?¿?¿?¿ -->
+                <li><a class="enlaces enclaces-medio" href="#"><i class="fas fa-sign-in-alt"></i>Ingresá</a></li>
+                
+                <li><a class="enlaces" href="#"><i class="fas fa-shopping-cart"></i>Mis compras</a></li>
+                
+            </div>
+            </ul>
+        </nav>
+
+        <div class="burger">
+            <i class="fas fa-bars" style="color: #ffffff;"></i>
+        </div>
+        <img class="imagen-home" src="/CLASE-17-18-19-20-MICRODESAFIOS/public/images/img-home-banner.jpg"
+            alt="publicidad">
     </header>
-<!-- ------------------------------------------------------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
     <main>
+        <h2 class="titulares">Basado en tu última visita</h2>
         <section>
-            <h2 class="titulares">Basado en tu última visita</h2>
 
             <article>
-                <img class="imagen-art" width="320" height="300" src="../public/images/img-cafetera-moulinex.jpg" alt="imagen de la cafetera">
+                <img class="imagen-art" src="../public/images/img-cafetera-moulinex.jpg"
+                    alt="imagen de la cafetera">
                 <div class="productos__descripcion">
-                    <div class="borde__carrito--verde">
-                        <i class="fas fa-truck" style="color: #39b54a;"></i>
+                    <div class="carrito--verde">
+                        <i class="fas fa-truck borde__carrito--verde" style="color: #39b54a;"></i>
                     </div>
-                    <p class="precios">$6.770</p>
-                    <p class="descuentos">40% OFF</p>
+                    <div class="precios-descuentos">
+                        <p class="precios">$6.770</p>
+                        <p class="descuentos">40% OFF</p>
+                    </div>
                     <h3>Cafetera Moulinex</h3>
                 </div>
             </article>
 
             <article>
-                <img class="imagen-art" width="320" height="300" src="../public/images/img-macbook-pro-2019.jpg" alt="imagen de MacBook">
+                <img class="imagen-art" src="../public/images/img-macbook-pro-2019.jpg"
+                    alt="imagen de MacBook">
                 <div class="productos__descripcion">
-                    <div class="borde__carrito--verde">
-                        <i class="fas fa-truck" style="color: #39b54a;"></i>
+                    <div class="carrito--verde">
+                        <i class="fas fa-truck borde__carrito--verde" style="color: #39b54a;"></i>
                     </div>
-                    <p class="precios">$230.000</p>
-                    <p class="descuentos">20% off</p>
+                    <div class="precios-descuentos">
+                        <p class="precios">$230.000</p>
+                        <p class="descuentos">20% off</p>
+                    </div>
                     <h3>MacBook Pro 2019</h3>
                 </div>
             </article>
 
             <article>
-                <img class="imagen-art" width="320" height="300" src="../public/images/img-samsung-galaxy-s10.jpg" alt="imagen del Samsung Galaxy">
+                <img class="imagen-art" src="../public/images/img-samsung-galaxy-s10.jpg"
+                    alt="imagen del Samsung Galaxy">
                 <div class="productos__descripcion">
-                    <div class="borde__carrito--verde">
-                        <i class="fas fa-truck" style="color: #39b54a;"></i>
+                    <div class="carrito--verde">
+                        <i class="fas fa-truck borde__carrito--verde" style="color: #39b54a;"></i>
                     </div>
-                    <p class="precios">$70.500</p>
-                    <p class="descuentos">10% off</p>
+                    <div class="precios-descuentos">
+                        <p class="precios">$70.500</p>
+                        <p class="descuentos">10% off</p>
+                    </div>
                     <h3>Samsung Galaxy S10</h3>
                 </div>
             </article>
 
             <article>
-                <img class="imagen-art" width="320" height="300" src="../public/images/img-tv-samsung-smart.jpg" alt="imagen del SmartTv">
+                <img class="imagen-art" src="../public/images/img-tv-samsung-smart.jpg"
+                    alt="imagen del SmartTv">
                 <div class="productos__descripcion">
-                    <div class="borde__carrito--verde">
-                        <i class="fas fa-truck" style="color: #39b54a;"></i>
+                    <div class="carrito--verde">
+                        <i class="fas fa-truck borde__carrito--verde" style="color: #39b54a;"></i>
                     </div>
-                    <p class="precios">$23.200</p>
-                    <p class="descuentos">5% off</p>
+                    <div class="precios-descuentos">
+                        <p class="precios">$23.200</p>
+                        <p class="descuentos">5% off</p>
+                    </div>
                     <h3>SmartTv Samsung 43"</h3>
                 </div>
             </article>
 
         </section>
+        <h2 class="titulares">Sección de Ofertas</h2>
         <section>
-            <h2 class="titulares">Sección de Ofertas</h2>
             <article>
-                <img class="imagen-art" width="320" height="300" src="../public/images/img-cafetera-moulinex.jpg" alt="imagen de la cafetera">
+                <img class="imagen-art" src="../public/images/img-cafetera-moulinex.jpg"
+                    alt="imagen de la cafetera">
                 <div class="productos__descripcion">
-                    <div class="borde__carrito--verde">
-                        <i class="fas fa-truck" style="color: #39b54a;"></i>
+                    <div class="carrito--verde">
+                        <i class="fas fa-truck borde__carrito--verde" style="color: #39b54a;"></i>
                     </div>
-                    <p class="precios">$6.770</p>
-                    <p class="descuentos">40% OFF</p>
+                    <div class="precios-descuentos">
+                        <p class="precios">$6.770</p>
+                        <p class="descuentos">40% OFF</p>
+                    </div>
                     <h3>Cafetera Moulinex</h3>
                 </div>
             </article>
 
             <article>
-                <img class="imagen-art" width="320" height="300" src="../public/images/img-macbook-pro-2019.jpg" alt="imagen de MacBook">
+                <img class="imagen-art" src="../public/images/img-macbook-pro-2019.jpg"
+                    alt="imagen de MacBook">
                 <div class="productos__descripcion">
-                    <div class="borde__carrito--verde">
-                        <i class="fas fa-truck" style="color: #39b54a;"></i>
+                    <div class="carrito--verde">
+                        <i class="fas fa-truck borde__carrito--verde" style="color: #39b54a;"></i>
                     </div>
-                    <p class="precios">$230.000</p>
-                    <p class="descuentos">20% off</p>
+                    <div class="precios-descuentos">
+                        <p class="precios">$230.000</p>
+                        <p class="descuentos">20% off</p>
+                    </div>
                     <h3>MacBook Pro 2019</h3>
                 </div>
             </article>
 
             <article>
-                <img class="imagen-art" width="320" height="300" src="../public/images/img-samsung-galaxy-s10.jpg" alt="imagen del Samsung Galaxy">
+                <img class="imagen-art" src="../public/images/img-samsung-galaxy-s10.jpg"
+                    alt="imagen del Samsung Galaxy">
                 <div class="productos__descripcion">
-                    <div class="borde__carrito--verde">
-                        <i class="fas fa-truck" style="color: #39b54a;"></i>
+                    <div class="carrito--verde">
+                        <i class="fas fa-truck borde__carrito--verde" style="color: #39b54a;"></i>
                     </div>
-                    <p class="precios">$70.500</p>
-                    <p class="descuentos">10% off</p>
+                    <div class="precios-descuentos">
+                        <p class="precios">$70.500</p>
+                        <p class="descuentos">10% off</p>
+                    </div>
                     <h3>Samsung Galaxy S10</h3>
                 </div>
             </article>
 
             <article>
-                <img class="imagen-art" width="320" height="300" src="../public/images/img-tv-samsung-smart.jpg" alt="imagen del SmartTv">
+                <img class="imagen-art" src="../public/images/img-tv-samsung-smart.jpg"
+                    alt="imagen del SmartTv">
                 <div class="productos__descripcion">
-                    <div class="borde__carrito--verde">
-                        <i class="fas fa-truck" style="color: #39b54a;"></i>
+                    <div class="carrito--verde">
+                        <i class="fas fa-truck borde__carrito--verde" style="color: #39b54a;"></i>
                     </div>
-                    <p class="precios">$23.200</p>
-                    <p class="descuentos">5% off</p>
+                    <div class="precios-descuentos">
+                        <p class="precios">$23.200</p>
+                        <p class="descuentos">5% off</p>
+                    </div>
                     <h3>SmartTv Samsung 43"</h3>
                 </div>
             </article>
 
         </section>
     </main>
-<!-- ------------------------------------------------------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
     <footer>
         <section>
             <div class="iconos-footer">
