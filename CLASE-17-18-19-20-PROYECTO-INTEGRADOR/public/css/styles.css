@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}/* 
 
 body {
     background-color: pink;
@@ -99,4 +102,4 @@ img {
     .contenedor-2 {
         max-width: 1100px;
     }
-}
+} */
