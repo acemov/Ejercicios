@@ -183,11 +183,11 @@ footer{
     header nav ul{
         display: flex;
         justify-content: space-between;
-        padding: 0 20px ;
+        padding: 0 5% ;
     }
     .navegador-1,.navegador-2{
         display: flex;
-        width: 30%;
+        width: 50%;
         flex-wrap: wrap;
     }
     /* ----navegador 1 ---- */
@@ -234,7 +234,6 @@ footer{
     }
     .navegador-1,.navegador-2{
         display: flex;
-        width: 30%;
         margin: 0 10px;
     }
     .navegador-2 li a i{
