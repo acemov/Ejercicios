@@ -1,16 +1,13 @@
 *{
     box-sizing: border-box;
 }
-form{
-    display: flex;
-    flex-direction: column;
-}
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     background-color: #ebebeb;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -58,12 +55,19 @@ button {
     color: white;
 }
 
-
+body p {
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 8px;
+}
 
 @media (min-width: 361px){
     .titulos{
         font-size: 17px;
         font-weight: bold;
+    }
+    body p {
+        margin-bottom: 15px;
     }
 }
 @media (min-width: 769px){

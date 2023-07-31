@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ebebeb;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 60%;
+    min-width: 240px;
+    max-width: 360px;
+    height: 6%;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+input,button{
+    border: 0 none transparent;
+    border-radius: 5px;
+    min-height: 32px;
+    height: 5%;
+}
+button, input, optgroup, select, textarea{
+    padding-left: 10px;
+}
+button {
+    border: transparent 0 solid;
+    background-color: #0044aa;
+    color: white;
+}
+body p {
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 15px;
+}
