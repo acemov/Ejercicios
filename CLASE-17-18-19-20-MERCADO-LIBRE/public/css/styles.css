@@ -133,12 +133,17 @@ main h2{
 header nav {
     display: none;
 }
+.borde__carrito--verde{
+    transition: all 1s;
+}
+.borde__carrito--verde:hover{
+    transform: rotatez(-90deg);
+}
 
 /* ---------------------------------------------FOOTER-------------------------------------------- */
 footer{
     background-color: white;
     text-align: center;
-    height: 380px;
 }
 .iconos-footer{
     font-size: 25px;
@@ -210,10 +215,6 @@ footer{
     main h2{
         margin-left: 7%;
     }
-    main article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        margin: 10px;
-    }
     main section{
         display: flex;
         flex-wrap: wrap;
@@ -222,6 +223,24 @@ footer{
     main section article{
         flex-basis: 40%;
     }
+    main article {
+        transition: all 1s;
+        margin: 10px;
+    }
+    
+    .productos__descripcion h3 {
+        opacity: 0;
+        transition: opacity 1s;
+    }
+    
+    main article:hover .productos__descripcion h3 {
+        opacity: 1; 
+    }
+    
+    main article:hover {
+        box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.5);
+    }
+    
     /* ----------footer---------- */
 
 }
@@ -245,4 +264,14 @@ footer{
         flex-basis: 20%;
     }
     /* ----------footer---------- */
+    footer{
+        display: flex;
+        align-items: center;
+        padding: 50px;
+    }
+    .Copyright{
+        position: relative;
+        bottom: -70px;
+        left: 20px;
+    }
 }
