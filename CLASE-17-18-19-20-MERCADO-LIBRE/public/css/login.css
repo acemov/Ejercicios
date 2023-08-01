@@ -29,16 +29,20 @@ input,button{
     min-height: 32px;
     height: 5%;
 }
-button, input, optgroup, select, textarea{
+input, optgroup, select, textarea{
     padding-left: 10px;
 }
 button {
     border: transparent 0 solid;
-    background-color: #0044aa;
+    background-color: #757575;
     color: white;
+    transition: all 0.1s;
 }
 body p {
     font-size: 25px;
     margin: 0;
     margin-bottom: 15px;
+}
+button:hover{
+    background-color: #0022AA;
 }

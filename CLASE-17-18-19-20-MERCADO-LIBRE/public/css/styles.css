@@ -151,8 +151,14 @@ footer{
     top: 15px;
 }
 
+.logos-footer{
+    color: #7e7e7e;
+    transition: all 0.1s;
+}
 
-
+.logos-footer:hover{
+    color: #005eff ;
+}
 
 
 
@@ -266,12 +272,18 @@ footer{
     /* ----------footer---------- */
     footer{
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
-        padding: 50px;
+        justify-content: center;
+        padding: 50px 50px 0px 50px;
     }
-    .Copyright{
-        position: relative;
-        bottom: -70px;
-        left: 20px;
+    footer section{
+        flex-basis: 32%;
+    }
+    .para-Copyright{
+        justify-self: flex-start;
+        flex-basis: 100%;
+        display: flex;
+        padding: 30px 0 5px 30px ;
     }
 }

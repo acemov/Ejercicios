@@ -1,7 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     background-color: #ebebeb;
@@ -11,7 +12,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-form{
+
+form {
     width: 60%;
     min-width: 240px;
     max-width: 360px;
@@ -22,7 +24,9 @@ form{
     flex-direction: column;
     justify-content: space-around;
 }
-.input,button{
+
+.input,
+button {
     border: 0 none transparent;
     border-radius: 5px;
     max-height: 35px;
@@ -30,29 +34,39 @@ form{
     height: 5%;
 }
 
-.perfil{
+.perfil {
     width: 50%;
 
     display: flex;
     justify-content: space-between;
 }
-input.input,.checkbox,.perfil{
+
+input.input,
+.checkbox,
+.perfil {
     padding-left: 10px;
 }
-.img-a-enviar{
+
+.img-a-enviar {
     padding-left: 0;
 }
 
 
-.titulos{
+.titulos {
     font-size: 15px;
     font-weight: 800;
 }
 
 button {
     border: transparent 0 solid;
-    background-color: #0044aa;
+    background-color: #757575;
+
     color: white;
+    transition: all 0.1s;
+}
+
+button:hover {
+    background-color: #0022AA;
 }
 
 body p {
@@ -61,15 +75,15 @@ body p {
     margin-bottom: 8px;
 }
 
-@media (min-width: 361px){
-    .titulos{
+@media (min-width: 361px) {
+    .titulos {
         font-size: 17px;
         font-weight: bold;
     }
+
     body p {
         margin-bottom: 15px;
     }
 }
-@media (min-width: 769px){
 
-}
+@media (min-width: 769px) {}
